@@ -26,6 +26,13 @@
     border: none;
     border-radius: 5px;
 }
+.btn-primary a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn-primary a:hover{
+    text-decoration: underline;
+}
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -97,6 +104,7 @@ nav ul{
     width: 430px;
     margin-right: 50px;
 }
+
 /* main styles */
 main{
     max-width: 1140px;
@@ -179,4 +187,7 @@ footer input, footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: 0;
+}
+footer .btn-primary:hover{
+    text-decoration: underline;
 }
