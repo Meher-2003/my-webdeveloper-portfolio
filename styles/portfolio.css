@@ -31,7 +31,7 @@
     color: inherit;
 }
 .btn-primary a:hover{
-    text-decoration: underline;
+    text-decoration: underline ;
 }
 .section-title{
     font-size: 35px;
@@ -79,6 +79,10 @@ nav li a{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+nav:hover{
+    text-decoration: underline;
 }
 
 /* banner styles */
