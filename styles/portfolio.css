@@ -112,7 +112,7 @@ main section{
     gap: 24px;
 }
 .skill{
-    padding: 104px 33px 30px 30px;
+    padding: 50px 33px 30px 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
@@ -136,4 +136,47 @@ main section{
 }
 .item_description{
     font-weight: 600;
+}
+
+/* resume container style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience{
+     max-height: 200px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 0px;
+}
+.down-cv{
+    margin-top: 50px;
+}
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input, footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    color: #757575;
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: 0;
 }
