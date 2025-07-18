@@ -198,17 +198,35 @@ footer .btn-primary:hover{
 }
 
 /* responsive */
-.hide{
-    display: none;
-}
-
 @media screen and (max-width: 576px) {
     .skills-container, 
     .resume-container, 
-    footer, 
-    .about-items{
+    footer,
+    nav,
+    nav > ul, 
+    .about-items,
+    .banner
+    {
         flex-direction: column;
-    }   
+    } 
+    .banner-title{
+        font-size: 73px;
+    }
+    nav>ul{
+        gap: 20px;
+    }
+    .header{
+        background-image: none;
+    } 
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner-pic{
+        width: 100%;
+    }
     footer, .about{
         padding: 20px;
     }
